@@ -4,14 +4,8 @@
  min-width: 800px;
  }*/
  
- @font-face{
-	font-family: 'Verdana';
-	src: url('../font/Verdana.ttf');
-	font-weight: normal;
-	font-style: normal;
- }
-* {
-	font-family: 'Verdana';
+body {
+	font-family: Century Gothic, sans-serif, Verdana, arial;
 }
 
 #pagedown {
@@ -70,7 +64,6 @@
 
 #nav ul li a:link, a:visited {
 	text-decoration: none;
-	font-family: "Calibri", "Arial";
 	color: white;
 	font-weight: bold;
 }
